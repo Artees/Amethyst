@@ -604,7 +604,7 @@
 				TargetAttributes = {
 					402DB6DD1742E41A00D1C936 = {
 						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					40D95B461C6E2ED800AAF433 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -1010,7 +1010,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Amethyst/AmethystDebug.entitlements;
 				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 92;
 				DEFINES_MODULE = YES;
@@ -1045,7 +1045,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Amethyst/Amethyst.entitlements;
 				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 92;
 				DEFINES_MODULE = YES;
