@@ -10,14 +10,13 @@ target 'Amethyst' do
   pod 'RxSwift'
   pod 'RxSwiftExt'
   pod 'Silica', git: 'https://github.com/ianyh/Silica', submodules: true
-  #pod 'Sparkle'
   pod 'SwiftLint'
   pod 'SwiftyBeaver'
   pod 'SwiftyJSON'
 
   target 'AmethystTests' do
     inherit! :search_paths
-    pod 'Nimble'
-    pod 'Quick'
+    pod 'Nimble', '~> 9.0.1'
+    pod 'Quick', '~> 4.0.0'
   end
 end
